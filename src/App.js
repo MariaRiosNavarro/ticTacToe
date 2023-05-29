@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Fragment } from "react";
+
 
 function Square({ value, onSquareClick }) {
   // remove const [value, setValue] = useState(null) to lift up;
