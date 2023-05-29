@@ -11,9 +11,12 @@
   },
   "keywords": [],
   "name": "react-tutorial-tic-tac-toe-forked",
-  "description": null,
+  "description": "Tic Tac Toe Game",
   "version": "0.0.0",
+  "homepage": "https://MariaRiosNavarro.github.io/ticTacToe",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
